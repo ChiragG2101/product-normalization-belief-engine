@@ -57,7 +57,7 @@ curious how people handle the "everyone copied the same wrong value" problem.
 
 ## First comment (the link)
 
-Repo + preprint (honest limitations and all): <YOUR_REPO_URL>
+Repo + preprint (honest limitations and all): https://github.com/ChiragG2101/product-normalization-belief-engine
 
 It's a Week-1 learning project, so it's deliberately a "way of thinking" more than a
 production system — feedback and holes-poking very welcome.

@@ -63,7 +63,7 @@ questioned + drafted. wrote it up as a mini-preprint with the ugly limitations l
 
 what signals do YOU trust to catch bad data after a scrape?
 
-repo + write-up: <YOUR_REPO_URL>
+repo + write-up: https://github.com/ChiragG2101/product-normalization-belief-engine
 
 ---
 

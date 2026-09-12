@@ -75,7 +75,8 @@ calibration isn't a footnote; an overconfident "looks fine" quietly destroys the
 cost calculation.
 
 Everything (markdown model, runnable stdlib code that reproduces every number, the
-preprint, decision + review + discussion logs) is here: [FILL: repo link]
+preprint, decision + review + discussion logs) is here:
+https://github.com/ChiragG2101/product-normalization-belief-engine
 
 **Questions for the group / instructor:**
 1. Is combining Weeks 1 + 2 into one paper + engine the intended path, or were they
