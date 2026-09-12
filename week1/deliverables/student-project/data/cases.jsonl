@@ -1,0 +1,40 @@
+{"case_id": "seed01", "field": "ram_gb", "source": "MFR", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": []}
+{"case_id": "seed02", "field": "ram_gb", "source": "MID", "true_world": "typo", "initial_signals": ["oos"], "extra_signals": ["xsource_disagree"]}
+{"case_id": "seed03", "field": "storage_gb", "source": "MID", "true_world": "unit_error", "initial_signals": ["unit"], "extra_signals": []}
+{"case_id": "seed04", "field": "ram_gb", "source": "SKY", "true_world": "correct", "initial_signals": [], "extra_signals": ["xsource_agree"]}
+{"case_id": "seed05", "field": "ram_gb", "source": "MFR", "true_world": "wrong_product", "initial_signals": ["xsource_disagree"], "extra_signals": ["xsource_disagree"]}
+{"case_id": "seed06", "field": "weight_g", "source": "MID", "true_world": "typo", "initial_signals": ["oos"], "extra_signals": []}
+{"case_id": "seed07", "field": "battery_mah", "source": "MID", "true_world": "missing", "initial_signals": ["empty"], "extra_signals": []}
+{"case_id": "seed08", "field": "ram_gb", "source": "MID", "true_world": "garbled", "initial_signals": ["junk"], "extra_signals": []}
+{"case_id": "seed09", "field": "storage_gb", "source": "MFR", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": []}
+{"case_id": "seed10", "field": "ram_gb", "source": "SKY", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "seed11", "field": "screen_in", "source": "MFR", "true_world": "wrong_product", "initial_signals": ["xsource_agree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "seed12", "field": "ram_gb", "source": "MFR", "true_world": "wrong_product", "initial_signals": ["xsource_agree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "seed13", "field": "storage_gb", "source": "MID", "true_world": "unit_error", "initial_signals": ["unit"], "extra_signals": []}
+{"case_id": "seed14", "field": "battery_mah", "source": "SKY", "true_world": "typo", "initial_signals": ["oos"], "extra_signals": ["xsource_disagree"]}
+{"case_id": "gen001", "field": "battery_mah", "source": "MFR", "true_world": "garbled", "initial_signals": ["junk"], "extra_signals": ["junk"]}
+{"case_id": "gen002", "field": "weight_g", "source": "SKY", "true_world": "typo", "initial_signals": ["oos"], "extra_signals": ["oos"]}
+{"case_id": "gen003", "field": "screen_in", "source": "MFR", "true_world": "correct", "initial_signals": ["xsource_disagree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "gen004", "field": "battery_mah", "source": "MID", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": ["oos"]}
+{"case_id": "gen005", "field": "storage_gb", "source": "MFR", "true_world": "unit_error", "initial_signals": ["oos", "unit", "xsource_disagree"], "extra_signals": ["unit", "xsource_agree"]}
+{"case_id": "gen006", "field": "weight_g", "source": "MID", "true_world": "typo", "initial_signals": ["oos", "xsource_disagree"], "extra_signals": ["oos"]}
+{"case_id": "gen007", "field": "ram_gb", "source": "MFR", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": ["oos"]}
+{"case_id": "gen008", "field": "screen_in", "source": "MID", "true_world": "unit_error", "initial_signals": ["oos", "unit", "xsource_disagree"], "extra_signals": ["unit"]}
+{"case_id": "gen009", "field": "ram_gb", "source": "MID", "true_world": "correct", "initial_signals": ["xsource_disagree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "gen010", "field": "storage_gb", "source": "MID", "true_world": "wrong_product", "initial_signals": ["xsource_agree", "xsource_disagree"], "extra_signals": ["xsource_agree", "xsource_disagree"]}
+{"case_id": "gen011", "field": "battery_mah", "source": "SKY", "true_world": "unit_error", "initial_signals": ["oos", "unit"], "extra_signals": ["unit", "xsource_disagree"]}
+{"case_id": "gen012", "field": "battery_mah", "source": "MID", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "gen013", "field": "battery_mah", "source": "MFR", "true_world": "missing", "initial_signals": ["empty"], "extra_signals": ["empty"]}
+{"case_id": "gen014", "field": "screen_in", "source": "MFR", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "gen015", "field": "weight_g", "source": "MFR", "true_world": "correct", "initial_signals": ["xsource_disagree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "gen016", "field": "screen_in", "source": "MFR", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "gen017", "field": "ram_gb", "source": "SKY", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": ["xsource_disagree"]}
+{"case_id": "gen018", "field": "screen_in", "source": "MID", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": ["xsource_agree", "xsource_disagree"]}
+{"case_id": "gen019", "field": "screen_in", "source": "MID", "true_world": "wrong_product", "initial_signals": ["xsource_agree", "xsource_disagree"], "extra_signals": ["xsource_disagree"]}
+{"case_id": "gen020", "field": "storage_gb", "source": "SKY", "true_world": "typo", "initial_signals": ["oos", "xsource_agree", "xsource_disagree"], "extra_signals": ["junk"]}
+{"case_id": "gen021", "field": "ram_gb", "source": "SKY", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "gen022", "field": "weight_g", "source": "SKY", "true_world": "garbled", "initial_signals": ["junk"], "extra_signals": ["junk"]}
+{"case_id": "gen023", "field": "storage_gb", "source": "MFR", "true_world": "correct", "initial_signals": ["xsource_disagree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "gen024", "field": "storage_gb", "source": "SKY", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": ["xsource_agree"]}
+{"case_id": "gen025", "field": "storage_gb", "source": "SKY", "true_world": "garbled", "initial_signals": ["junk"], "extra_signals": ["junk"]}
+{"case_id": "gen026", "field": "screen_in", "source": "MFR", "true_world": "correct", "initial_signals": ["xsource_agree"], "extra_signals": ["xsource_agree"]}

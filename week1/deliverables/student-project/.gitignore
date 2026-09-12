@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Generated experiment artifacts (regenerate via experiments/run_experiments.py)
+# Keep the folder but ignore large/derived outputs if desired.
+# Comment the next lines out if you want to commit results for the writeup.
+# results/*.csv
+# results/*.json
+# paper/figures/*.png

@@ -1,0 +1,270 @@
+{
+  "n_cases": 40,
+  "summaries": {
+    "full": {
+      "policy": "full",
+      "n_cases": 40,
+      "total_cost": 92,
+      "avg_cost": 2.3,
+      "human_review_rate": 0.575,
+      "total_buys": 33,
+      "wrong_publishes_cost20": 2,
+      "accept_metrics": {
+        "accept_precision": 0.75,
+        "accept_recall": 0.333,
+        "true_accepts": 6,
+        "false_accepts": 2,
+        "missed_accepts": 12
+      },
+      "confusion": {
+        "ACCEPT": {
+          "correct": 6,
+          "unit_error": 0,
+          "wrong_product": 2,
+          "typo": 0,
+          "missing": 0,
+          "garbled": 0
+        },
+        "FLAG": {
+          "correct": 12,
+          "unit_error": 2,
+          "wrong_product": 3,
+          "typo": 6,
+          "missing": 0,
+          "garbled": 0
+        },
+        "REJECT": {
+          "correct": 0,
+          "unit_error": 0,
+          "wrong_product": 0,
+          "typo": 0,
+          "missing": 2,
+          "garbled": 4
+        },
+        "REPAIR": {
+          "correct": 0,
+          "unit_error": 3,
+          "wrong_product": 0,
+          "typo": 0,
+          "missing": 0,
+          "garbled": 0
+        }
+      },
+      "calibration": [
+        {
+          "bin": "0.00-0.50",
+          "n": 23,
+          "mean_pred": 0.088,
+          "empirical_correct": 0.13
+        },
+        {
+          "bin": "0.50-0.70",
+          "n": 3,
+          "mean_pred": 0.637,
+          "empirical_correct": 1.0
+        },
+        {
+          "bin": "0.70-0.90",
+          "n": 6,
+          "mean_pred": 0.804,
+          "empirical_correct": 1.0
+        },
+        {
+          "bin": "0.90-0.95",
+          "n": 3,
+          "mean_pred": 0.935,
+          "empirical_correct": 1.0
+        },
+        {
+          "bin": "0.95-1.01",
+          "n": 5,
+          "mean_pred": 0.978,
+          "empirical_correct": 0.6
+        }
+      ]
+    },
+    "autonomous": {
+      "policy": "autonomous",
+      "n_cases": 40,
+      "total_cost": 123,
+      "avg_cost": 3.075,
+      "human_review_rate": 0.0,
+      "total_buys": 0,
+      "wrong_publishes_cost20": 2,
+      "accept_metrics": {
+        "accept_precision": 0.818,
+        "accept_recall": 0.5,
+        "true_accepts": 9,
+        "false_accepts": 2,
+        "missed_accepts": 9
+      },
+      "confusion": {
+        "ACCEPT": {
+          "correct": 9,
+          "unit_error": 0,
+          "wrong_product": 2,
+          "typo": 0,
+          "missing": 0,
+          "garbled": 0
+        },
+        "REJECT": {
+          "correct": 9,
+          "unit_error": 0,
+          "wrong_product": 3,
+          "typo": 5,
+          "missing": 2,
+          "garbled": 4
+        },
+        "REPAIR": {
+          "correct": 0,
+          "unit_error": 5,
+          "wrong_product": 0,
+          "typo": 1,
+          "missing": 0,
+          "garbled": 0
+        }
+      },
+      "calibration": [
+        {
+          "bin": "0.00-0.50",
+          "n": 21,
+          "mean_pred": 0.098,
+          "empirical_correct": 0.095
+        },
+        {
+          "bin": "0.50-0.70",
+          "n": 8,
+          "mean_pred": 0.61,
+          "empirical_correct": 0.875
+        },
+        {
+          "bin": "0.70-0.90",
+          "n": 3,
+          "mean_pred": 0.813,
+          "empirical_correct": 1.0
+        },
+        {
+          "bin": "0.90-0.95",
+          "n": 8,
+          "mean_pred": 0.944,
+          "empirical_correct": 0.75
+        },
+        {
+          "bin": "0.95-1.01",
+          "n": 0,
+          "mean_pred": null,
+          "empirical_correct": null
+        }
+      ]
+    },
+    "baseline": {
+      "policy": "baseline",
+      "n_cases": 40,
+      "total_cost": 124,
+      "avg_cost": 3.1,
+      "human_review_rate": 0.325,
+      "total_buys": 0,
+      "wrong_publishes_cost20": 2,
+      "accept_metrics": {
+        "accept_precision": 0.75,
+        "accept_recall": 0.333,
+        "true_accepts": 6,
+        "false_accepts": 2,
+        "missed_accepts": 12
+      },
+      "confusion": {
+        "ACCEPT": {
+          "correct": 6,
+          "unit_error": 0,
+          "wrong_product": 2,
+          "typo": 0,
+          "missing": 0,
+          "garbled": 0
+        },
+        "REJECT": {
+          "correct": 2,
+          "unit_error": 5,
+          "wrong_product": 0,
+          "typo": 6,
+          "missing": 2,
+          "garbled": 4
+        },
+        "FLAG": {
+          "correct": 10,
+          "unit_error": 0,
+          "wrong_product": 3,
+          "typo": 0,
+          "missing": 0,
+          "garbled": 0
+        }
+      },
+      "calibration": [
+        {
+          "bin": "0.00-0.50",
+          "n": 21,
+          "mean_pred": 0.098,
+          "empirical_correct": 0.095
+        },
+        {
+          "bin": "0.50-0.70",
+          "n": 8,
+          "mean_pred": 0.61,
+          "empirical_correct": 0.875
+        },
+        {
+          "bin": "0.70-0.90",
+          "n": 3,
+          "mean_pred": 0.813,
+          "empirical_correct": 1.0
+        },
+        {
+          "bin": "0.90-0.95",
+          "n": 8,
+          "mean_pred": 0.944,
+          "empirical_correct": 0.75
+        },
+        {
+          "bin": "0.95-1.01",
+          "n": 0,
+          "mean_pred": null,
+          "empirical_correct": null
+        }
+      ]
+    }
+  },
+  "belief_vs_baseline_agreement": {
+    "agree_fraction": 0.625,
+    "same": 25,
+    "n": 40
+  },
+  "rent_verdict": "belief layer changes decisions vs. baseline (but see significance test)",
+  "cost_significance": {
+    "full_vs_baseline": {
+      "n_pairs": 40,
+      "n_nonzero": 9,
+      "median_diff": 0.0,
+      "mean_diff": -0.8,
+      "W": 1.5,
+      "w_plus": 1.5,
+      "w_minus": 43.5,
+      "z": -2.429,
+      "p_two_sided": 0.0152,
+      "significant_at_0.05": true,
+      "note": "normal approximation with continuity correction; small N -- read as indicative, not definitive"
+    },
+    "full_vs_autonomous": {
+      "n_pairs": 40,
+      "n_nonzero": 18,
+      "median_diff": 0.0,
+      "mean_diff": -0.775,
+      "W": 17.5,
+      "w_plus": 17.5,
+      "w_minus": 153.5,
+      "z": -2.94,
+      "p_two_sided": 0.0033,
+      "significant_at_0.05": true,
+      "note": "normal approximation with continuity correction; small N -- read as indicative, not definitive"
+    },
+    "interpretation": "Paired Wilcoxon signed-rank on per-case cost differences. If p >= 0.05 the average-cost gap is NOT statistically significant at N=40 -- the lower mean cost is a point estimate, not a proven win (and note it is largely bought by a higher FLAG/escalation rate)."
+  }
+}
